@@ -1,0 +1,151 @@
+
+h1{
+    color: #e0dfdc;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 30%;
+    width: 440px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+p{
+    text-align: left;
+    font-size: 16px;
+    width: 440px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background: #2b2b2b;
+    padding: 0;
+    margin:0 143px;
+    position: relative;
+    background-image: url("https://kinogo.biz/templates/Kinogo/images/IronMan3.webp");
+    background-position: center 0%; 
+}
+div, p{
+    color: #a8a8a8;
+}
+h2{
+    color: #e0dfdc;
+    cursor: pointer;
+}
+h2:hover{
+    color: rgb(249, 142, 10);
+}
+
+.Desc1{
+    display: flex;
+}
+.Desc2{
+    display: flex;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.itCont{
+    display: flex;
+}
+.textCont{
+    margin-left: 2%;
+}
+.panelInfo{
+    position: relative;
+    left: 1%;
+    height: 100%;
+    width: 35%;
+}
+.FilmInfo{
+    position: relative;
+    background-color: darkcyan;
+    padding-left: 2%;
+    border-top-right-radius: 2.5%;
+    border-bottom-right-radius: 2.5%;
+    border-left-color: black;
+    border-left-style: solid;
+    border-left-width: 10%;
+}
+.Cont{
+    width: 973px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+
+  
+    border-radius: 2.5%;
+}
+.PP{
+    color: crimson;
+}
+header{
+    height: 33px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+    left: 0%;
+    margin-bottom: 224px;
+    z-index: 1;
+    
+}
+.logo{
+    height: 17px;
+    width: 90px;
+}
+.logo> img{
+    height: 100%;
+}
+.header_nav{
+    display: flex;
+    gap: 10px;
+    
+}
+.header_nav>div{
+    text-decoration: underline;
+    color: white;
+}
+
+.header_nav>div:hover{
+    text-decoration: underline;
+    color: crimson;
+    cursor: pointer;
+}
+.cont_nav_container{
+    width: 882px;
+   
+    height: 29px;
+}
+.cont_nav{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.cont_nav_container{
+    display: flex;
+}
+.cont_nav_container_elem{
+    padding-top: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #3f3f3f;
+    color: #a8a8a8;
+    font-size: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 7px 7px 0 0;
+    border: 1px solid black;
+    min-width: 50px;
+    white-space: nowrap;
+
+    text-align: center;
+    
+}
+.cont_nav_container_elem:hover{
+    background: rgb(10, 10, 10);
+    cursor: pointer;
+}
+.cont_films{
+    height: 200px;
+    background: grey;
+    width: 100%;
+}
